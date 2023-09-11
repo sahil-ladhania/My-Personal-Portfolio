@@ -1,16 +1,16 @@
 import React from 'react'
-// import { BsGithub , BsInstagram , BsTwitter , BsLinkedin } from "react-icons/bs"
+import { BsGithub , BsInstagram , BsTwitter , BsLinkedin } from "react-icons/bs"
 
 const SocialHandlesComponent = () => {
     return (
         <div>
             <>
                 {/* Main Component */}
-                <div>
-                    {/* <a href="#"><BsGithub/></a>
-                    <a href="#"><BsInstagram/></a>
-                    <a href="#"><BsLinkedin/></a>
-                    <a href="#"><BsTwitter/></a> */}
+                <div className='flex mb-20 w-2/5 justify-between'>
+                    <a className='text-2xl text-slate-300' href="https://github.com/sahil-ladhania"><BsGithub/></a>
+                    <a className='text-2xl text-slate-300' href="https://www.instagram.com/sahil.ladhania/"><BsInstagram/></a>
+                    <a className='text-2xl text-slate-300' href="https://www.linkedin.com/in/sahil-ladhania/"><BsLinkedin/></a>
+                    <a className='text-2xl text-slate-300' href="https://twitter.com/SahilLadhania"><BsTwitter/></a>
                 </div>
             </>
         </div>

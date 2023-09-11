@@ -4,6 +4,7 @@ import NameAndIntroComponent from "../components/NameAndIntroComponent";
 import ProjectComponent from "../components/ProjectComponent";
 import ResumeComponent from "../components/ResumeComponent";
 import SideNavbarComponent from "../components/SideNavbarComponent";
+import SkillsComponent from "../components/SkillsComponent";
 import SocialHandlesComponent from "../components/SocialHandlesComponent";
 import SpecialNoteComponent from "../components/SpecialNoteComponent";
 
@@ -14,7 +15,7 @@ export default function HomePage() {
                 {/* Main Component */}
                 <div className="max-w-6xl mr-auto ml-auto flex h-screen">
                     {/* Left Container */}
-                    <div className="mt-20 w-9/12 mr-10 ml-10">
+                    <div className="mt-20 w-9/12 mr-10 ml-10 flex flex-col justify-between">
                         <NameAndIntroComponent/>
                         <SideNavbarComponent/>
                         <SocialHandlesComponent/>
@@ -22,6 +23,11 @@ export default function HomePage() {
                     {/* Right Container */}
                     <div className="mt-20 w-9/12 mr-10 ml-10">
                         <AboutMeComponent/>
+                        <SkillsComponent/>
+                        <ProjectComponent/>
+                        <ProjectComponent/>
+                        <ProjectComponent/>
+                        <ProjectComponent/>
                         <ProjectComponent/>
                         <ResumeComponent/>
                         <FormComponent/>

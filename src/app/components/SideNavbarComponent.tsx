@@ -6,9 +6,11 @@ const SideNavbarComponent = () => {
             <>
                 {/* Main Component */}
                 <div>
-                    <ul>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Projects</a></li>
+                    <ul className='h-auto'>
+                        <li className='uppercase text-sm pt-3 pr-10 pb-3'><a className='pt-3 pr-10 pb-3' href="#">About</a></li>
+                        <li className='uppercase text-sm pt-3 pr-10 pb-3'><a className='pt-3 pr-10 pb-3' href="#">Skills</a></li>
+                        <li className='uppercase text-sm pt-3 pr-10 pb-3'><a className='pt-3 pr-10 pb-3' href="#">Projects</a></li>
+                        <li className='uppercase text-sm pt-3 pr-10 pb-3'><a className='pt-3 pr-10 pb-3' href="#">Contact Me</a></li>
                     </ul>
                 </div>
             </>

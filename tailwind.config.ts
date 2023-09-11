@@ -13,6 +13,9 @@ const config: Config = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      backgroundColor: {
+        'light-blue-gradient': 'linear-gradient(180deg, #6EE7B7 0%, #3B82F6 100%)', // Light blue gradient
+      },
     },
   },
   plugins: [],
