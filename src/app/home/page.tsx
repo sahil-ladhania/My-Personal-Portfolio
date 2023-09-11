@@ -12,15 +12,21 @@ export default function HomePage() {
         <div>
             <>
                 {/* Main Component */}
-                <div>
-                    <NameAndIntroComponent/>
-                    <SideNavbarComponent/>
-                    <SocialHandlesComponent/>
-                    <AboutMeComponent/>
-                    <ProjectComponent/>
-                    <ResumeComponent/>
-                    <FormComponent/>
-                    <SpecialNoteComponent/>
+                <div className="max-w-6xl mr-auto ml-auto flex h-screen">
+                    {/* Left Container */}
+                    <div className="mt-20 w-9/12 mr-10 ml-10">
+                        <NameAndIntroComponent/>
+                        <SideNavbarComponent/>
+                        <SocialHandlesComponent/>
+                    </div>
+                    {/* Right Container */}
+                    <div className="mt-20 w-9/12 mr-10 ml-10">
+                        <AboutMeComponent/>
+                        <ProjectComponent/>
+                        <ResumeComponent/>
+                        <FormComponent/>
+                        <SpecialNoteComponent/>
+                    </div>
                 </div>
             </>
         </div>

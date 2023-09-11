@@ -6,9 +6,9 @@ const NameAndIntroComponent = () => {
             <>
                 {/* Main Component */}
                 <div>
-                    <h1>Sahil Ladhania</h1>
-                    <span>Software Engineer at YummmZo</span>
-                    <p>I build accessible, inclusive products and digital experiences for the web.</p>
+                    <h1 className='text-5xl font-extrabold'>Sahil Ladhania</h1>
+                    <span className='text-xl font-semibold'>Software Engineer at YummmZo</span>
+                    <p className='text-m'>I build accessible, inclusive products and digital experiences for the web.</p>
                 </div>
             </>
         </div>
