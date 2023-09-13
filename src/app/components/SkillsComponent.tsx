@@ -8,9 +8,9 @@ const SkillsComponent = () => {
                 {/* Main Component */}
                 <div className='mb-10'>
                     {/* Design Tools */}
-                    <div className='h-auto'>
+                    <div className='h-auto mb-5'>
                         {/* Heading */}
-                        <div className='flex items-center'>
+                        <div className='flex items-center cursor-pointer'>
                             <span className='mr-3 text-base text-slate-400 tracking-wide'>Design Tools</span>
                             <span className='p-3'><AiOutlineArrowRight/></span>
                         </div>
@@ -29,9 +29,9 @@ const SkillsComponent = () => {
                         </div>
                     </div>
                     {/* Frontend */}
-                    <div className='h-auto'>
+                    <div className='h-auto mb-5'>
                         {/* Heading */}
-                        <div className='flex items-center'>
+                        <div className='flex items-center cursor-pointer'>
                             <span className='mr-3 text-base text-slate-400 tracking-wide'>Frontend Technologies</span>
                             <span className='p-3'><AiOutlineArrowRight/></span>
                         </div>
@@ -66,9 +66,9 @@ const SkillsComponent = () => {
                         </div>
                     </div>
                     {/* Backend */}
-                    <div className='h-auto'>
+                    <div className='h-auto mb-5'>
                         {/* Heading */}
-                        <div className='flex items-center'>
+                        <div className='flex items-center cursor-pointer'>
                             <span className='mr-3 text-base text-slate-400 tracking-wide'>Backend Technologies</span>
                             <span className='p-3'><AiOutlineArrowRight/></span>
                         </div>
@@ -87,9 +87,9 @@ const SkillsComponent = () => {
                         </div>
                     </div>
                     {/* API */}
-                    <div className='h-auto'>
+                    <div className='h-auto mb-5'>
                         {/* Heading */}
-                        <div className='flex items-center'>
+                        <div className='flex items-center cursor-pointer'>
                             <span className='mr-3 text-base text-slate-400 tracking-wide'>API Architecture</span>
                             <span className='p-3'><AiOutlineArrowRight/></span>
                         </div>
@@ -108,9 +108,9 @@ const SkillsComponent = () => {
                         </div>
                     </div>
                     {/* Database */}
-                    <div className='h-auto'>
+                    <div className='h-auto mb-5'>
                         {/* Heading */}
-                        <div className='flex items-center'>
+                        <div className='flex items-center cursor-pointer'>
                             <span className='mr-3 text-base text-slate-400 tracking-wide'>Database</span>
                             <span className='p-3'><AiOutlineArrowRight/></span>
                         </div>
@@ -129,9 +129,9 @@ const SkillsComponent = () => {
                         </div>
                     </div>
                     {/* Version Control */}
-                    <div className='h-auto'>
+                    <div className='h-auto mb-5'>
                         {/* Heading */}
-                        <div className='flex items-center'>
+                        <div className='flex items-center cursor-pointer'>
                             <span className='mr-3 text-base text-slate-400 tracking-wide'>Version Control</span>
                             <span className='p-3'><AiOutlineArrowRight/></span>
                         </div>
@@ -150,9 +150,9 @@ const SkillsComponent = () => {
                         </div>
                     </div>
                     {/* Deployment */}
-                    <div className='h-auto'>
+                    <div className='h-auto mb-5'>
                         {/* Heading */}
-                        <div className='flex items-center'>
+                        <div className='flex items-center cursor-pointer'>
                             <span className='mr-3 text-base text-slate-400 tracking-wide'>Deployment</span>
                             <span className='p-3'><AiOutlineArrowRight/></span>
                         </div>
@@ -171,9 +171,9 @@ const SkillsComponent = () => {
                         </div>
                     </div>
                     {/* Cloud */}
-                    <div className='h-auto'>
+                    <div className='h-auto mb-5'>
                         {/* Heading */}
-                        <div className='flex items-center'>
+                        <div className='flex items-center cursor-pointer'>
                             <span className='mr-3 text-base text-slate-400 tracking-wide'>Cloud Technologies</span>
                             <span className='p-3'><AiOutlineArrowRight/></span>
                         </div>
@@ -184,9 +184,9 @@ const SkillsComponent = () => {
                         </div>
                     </div>
                     {/* Development Tools */}
-                    <div className='h-auto'>
+                    <div className='h-auto mb-5'>
                         {/* Heading */}
-                        <div className='flex items-center'>
+                        <div className='flex items-center cursor-pointer'>
                             <span className='mr-3 text-base text-slate-400 tracking-wide'>Development Tools</span>
                             <span className='p-3'><AiOutlineArrowRight/></span>
                         </div>

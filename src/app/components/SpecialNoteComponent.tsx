@@ -6,8 +6,8 @@ const SpecialNoteComponent = () => {
             <>
                 {/* Main Component */}
                 <div>
-                    <p className='text-slate-500 mb-20'>
-                        Loosely designed in Figma and coded in Visual Studio Code by yours truly. Built with Next.js and Tailwind CSS, deployed with Vercel. All text is set in the Inter typeface.
+                    <p className='text-slate-500 mb-20 text-sm'>
+                        Loosely designed in <span className='text-slate-300'>Figma</span> and coded in <span className='text-slate-300'>Visual Studio Code</span> by yours truly. Built with <span className='text-slate-300'>Next.js</span> and <span className='text-slate-300'>Tailwind CSS</span>, deployed with <span className='text-slate-300'>Vercel</span>.
                     </p>
                 </div>
             </>

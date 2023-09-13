@@ -16,6 +16,9 @@ const config: Config = {
       backgroundColor: {
         'light-blue-gradient': 'linear-gradient(180deg, #6EE7B7 0%, #3B82F6 100%)', // Light blue gradient
       },
+      fontFamily: {
+        custom: ['Your-Font-Name', 'sans'],
+      },
     },
   },
   plugins: [],
