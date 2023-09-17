@@ -7,7 +7,7 @@ const SpecialNoteComponent = () => {
                 {/* Main Component */}
                 <div>
                     <p className='text-slate-500 mb-20 text-sm'>
-                        Loosely designed in <span className='text-slate-300'>Figma</span> and coded in <span className='text-slate-300'>Visual Studio Code</span> by yours truly. Built with <span className='text-slate-300'>Next.js</span> and <span className='text-slate-300'>Tailwind CSS</span>, deployed with <span className='text-slate-300'>Vercel</span>.
+                        Loosely designed in <span className='text-slate-300'>Figma</span> and coded in <span className='text-slate-300'>Visual Studio Code</span> by yours truly <span className='text-slate-300'>Sahil</span>. Built with <span className='text-slate-300'>Next.js</span> and <span className='text-slate-300'>Tailwind CSS</span>, deployed with <span className='text-slate-300'>Vercel</span>.
                     </p>
                 </div>
             </>

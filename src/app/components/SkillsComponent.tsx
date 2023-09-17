@@ -10,9 +10,9 @@ const SkillsComponent = () => {
                     {/* Design Tools */}
                     <div className='h-auto mb-5'>
                         {/* Heading */}
-                        <div className='flex items-center cursor-pointer underline'>
-                            <span className='mr-3 text-lg text-slate-300 tracking-wide'>Design Tools</span>
-                            <span className='p-3'><AiOutlineArrowRight/></span>
+                        <div className='flex items-center cursor-pointer h-auto w-auto px-3 py-1 border-2 text-teal-300 text-sm font-medium border-transparent rounded-full bg-teal-400/10 leading-5 my-1 mr-1.5 animate-bounce'>
+                            <span className='mr-3 text-md font-medium text-teal-300 tracking-wide'>Design Tools</span>
+                            <span className='p-3 text-md font-medium text-teal-300'><AiOutlineArrowRight/></span>
                         </div>
                         {/* Skills */}
                         <div className='flex h-20 items-center justify-between'>
@@ -31,9 +31,9 @@ const SkillsComponent = () => {
                     {/* Frontend */}
                     <div className='h-auto mb-5'>
                         {/* Heading */}
-                        <div className='flex items-center cursor-pointer underline'>
-                            <span className='mr-3 text-lg text-slate-300 tracking-wide'>Frontend Technologies</span>
-                            <span className='p-3'><AiOutlineArrowRight/></span>
+                        <div className='flex items-center cursor-pointer h-auto w-auto px-3 py-1 border-2 text-teal-300 text-sm font-medium border-transparent rounded-full bg-teal-400/10 leading-5 my-1 mr-1.5 animate-bounce'>
+                            <span className='mr-3 text-md font-medium text-teal-300 tracking-wide'>Frontend Technologies</span>
+                            <span className='p-3 text-md font-medium text-teal-300'><AiOutlineArrowRight/></span>
                         </div>
                         {/* Skills */}
                         <div className='h-40'>
@@ -68,9 +68,9 @@ const SkillsComponent = () => {
                     {/* Backend */}
                     <div className='h-auto mb-5'>
                         {/* Heading */}
-                        <div className='flex items-center cursor-pointer underline'>
-                            <span className='mr-3 text-lg text-slate-300 tracking-wide'>Backend Technologies</span>
-                            <span className='p-3'><AiOutlineArrowRight/></span>
+                        <div className='flex items-center cursor-pointer h-auto w-auto px-3 py-1 border-2 text-teal-300 text-sm font-medium border-transparent rounded-full bg-teal-400/10 leading-5 my-1 mr-1.5 animate-bounce'>
+                            <span className='mr-3 text-md font-medium text-teal-300 tracking-wide'>Backend Technologies</span>
+                            <span className='p-3 text-md font-medium text-teal-300'><AiOutlineArrowRight/></span>
                         </div>
                         {/* Skills */}
                         <div className='flex h-20 items-center justify-between'>
@@ -89,9 +89,9 @@ const SkillsComponent = () => {
                     {/* API */}
                     <div className='h-auto mb-5'>
                         {/* Heading */}
-                        <div className='flex items-center cursor-pointer underline'>
-                            <span className='mr-3 text-lg text-slate-300 tracking-wide'>API Architecture</span>
-                            <span className='p-3'><AiOutlineArrowRight/></span>
+                        <div className='flex items-center cursor-pointer h-auto w-auto px-3 py-1 border-2 text-teal-300 text-sm font-medium border-transparent rounded-full bg-teal-400/10 leading-5 my-1 mr-1.5 animate-bounce'>
+                            <span className='mr-3 text-md font-medium text-teal-300 tracking-wide'>API Architecture</span>
+                            <span className='p-3 text-md font-medium text-teal-300'><AiOutlineArrowRight/></span>
                         </div>
                         {/* Skills */}
                         <div className='flex h-20 items-center justify-between'>
@@ -110,9 +110,9 @@ const SkillsComponent = () => {
                     {/* Database */}
                     <div className='h-auto mb-5'>
                         {/* Heading */}
-                        <div className='flex items-center cursor-pointer underline'>
-                            <span className='mr-3 text-lg text-slate-300 tracking-wide'>Database</span>
-                            <span className='p-3'><AiOutlineArrowRight/></span>
+                        <div className='flex items-center cursor-pointer h-auto w-auto px-3 py-1 border-2 text-teal-300 text-sm font-medium border-transparent rounded-full bg-teal-400/10 leading-5 my-1 mr-1.5 animate-bounce'>
+                            <span className='mr-3 text-md font-medium text-teal-300 tracking-wide'>Database</span>
+                            <span className='p-3 text-md font-medium text-teal-300'><AiOutlineArrowRight/></span>
                         </div>
                         {/* Skills */}
                         <div className='flex items-center h-20 justify-between'>
@@ -131,9 +131,9 @@ const SkillsComponent = () => {
                     {/* Version Control */}
                     <div className='h-auto mb-5'>
                         {/* Heading */}
-                        <div className='flex items-center cursor-pointer underline'>
-                            <span className='mr-3 text-lg text-slate-300 tracking-wide'>Version Control</span>
-                            <span className='p-3'><AiOutlineArrowRight/></span>
+                        <div className='flex items-center cursor-pointer h-auto w-auto px-3 py-1 border-2 text-teal-300 text-sm font-medium border-transparent rounded-full bg-teal-400/10 leading-5 my-1 mr-1.5 animate-bounce'>
+                            <span className='mr-3 text-md font-medium text-teal-300 tracking-wide'>Version Control</span>
+                            <span className='p-3 text-md font-medium text-teal-300'><AiOutlineArrowRight/></span>
                         </div>
                         {/* Skills */}
                         <div className='flex items-center h-20 justify-between'>
@@ -152,9 +152,9 @@ const SkillsComponent = () => {
                     {/* Deployment */}
                     <div className='h-auto mb-5'>
                         {/* Heading */}
-                        <div className='flex items-center cursor-pointer underline'>
-                            <span className='mr-3 text-lg text-slate-300 tracking-wide'>Deployment</span>
-                            <span className='p-3'><AiOutlineArrowRight/></span>
+                        <div className='flex items-center cursor-pointer h-auto w-auto px-3 py-1 border-2 text-teal-300 text-sm font-medium border-transparent rounded-full bg-teal-400/10 leading-5 my-1 mr-1.5 animate-bounce'>
+                            <span className='mr-3 text-md font-medium text-teal-300 tracking-wide'>Deployment</span>
+                            <span className='p-3 text-md font-medium text-teal-300'><AiOutlineArrowRight/></span>
                         </div>
                         {/* Skills */}
                         <div className='flex items-center h-20 justify-between'>
@@ -173,9 +173,9 @@ const SkillsComponent = () => {
                     {/* Cloud */}
                     <div className='h-auto mb-5'>
                         {/* Heading */}
-                        <div className='flex items-center cursor-pointer underline'>
-                            <span className='mr-3 text-lg text-slate-300 tracking-wide'>Cloud Technologies</span>
-                            <span className='p-3'><AiOutlineArrowRight/></span>
+                        <div className='flex items-center cursor-pointer h-auto w-auto px-3 py-1 border-2 text-teal-300 text-sm font-medium border-transparent rounded-full bg-teal-400/10 leading-5 my-1 mr-1.5 animate-bounce'>
+                            <span className='mr-3 text-md font-medium text-teal-300 tracking-wide'>Cloud Technologies</span>
+                            <span className='p-3 text-md font-medium text-teal-300'><AiOutlineArrowRight/></span>
                         </div>
                         {/* Skills */}
                         <div className='h-20 flex items-center'>
@@ -186,9 +186,9 @@ const SkillsComponent = () => {
                     {/* Development Tools */}
                     <div className='h-auto mb-5'>
                         {/* Heading */}
-                        <div className='flex items-center cursor-pointer underline'>
-                            <span className='mr-3 text-lg text-slate-300 tracking-wide'>Development Tools</span>
-                            <span className='p-3'><AiOutlineArrowRight/></span>
+                        <div className='flex items-center cursor-pointer h-auto w-auto px-3 py-1 border-2 text-teal-300 text-sm font-medium border-transparent rounded-full bg-teal-400/10 leading-5 my-1 mr-1.5 animate-bounce'>
+                            <span className='mr-3 text-md font-medium text-teal-300 tracking-wide'>Development Tools</span>
+                            <span className='p-3 text-md font-medium text-teal-300'><AiOutlineArrowRight/></span>
                         </div>
                         {/* Skills */}
                         <div className='flex items-center h-20 justify-between'>
