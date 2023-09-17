@@ -23,11 +23,16 @@ const ProjectComponent = () => {
                             </p>
                             <div>
                                 <ul className='flex flex-wrap'>
+                                    <li className='h-auto w-auto px-3 py-1 border-2 text-teal-300 text-sm font-medium border-transparent rounded-full bg-teal-400/10 leading-5 my-1 mr-1.5'>HTML</li>
+                                    <li className='h-auto w-auto px-3 py-1 border-2 text-teal-300 text-sm font-medium border-transparent rounded-full bg-teal-400/10 leading-5 my-1 mr-1.5'>Tailwind CSS</li>
                                     <li className='h-auto w-auto px-3 py-1 border-2 text-teal-300 text-sm font-medium border-transparent rounded-full bg-teal-400/10 leading-5 my-1 mr-1.5'>React</li>
+                                    <li className='h-auto w-auto px-3 py-1 border-2 text-teal-300 text-sm font-medium border-transparent rounded-full bg-teal-400/10 leading-5 my-1 mr-1.5'>Javascript</li>
+                                    <li className='h-auto w-auto px-3 py-1 border-2 text-teal-300 text-sm font-medium border-transparent rounded-full bg-teal-400/10 leading-5 my-1 mr-1.5'>Typescript</li>
                                     <li className='h-auto w-auto px-3 py-1 border-2 text-teal-300 text-sm font-medium border-transparent rounded-full bg-teal-400/10 leading-5 my-1 mr-1.5'>Node</li>
                                     <li className='h-auto w-auto px-3 py-1 border-2 text-teal-300 text-sm font-medium border-transparent rounded-full bg-teal-400/10 leading-5 my-1 mr-1.5'>Express</li>
-                                    <li className='h-auto w-auto px-3 py-1 border-2 text-teal-300 text-sm font-medium border-transparent rounded-full bg-teal-400/10 leading-5 my-1 mr-1.5'>REST API</li>
                                     <li className='h-auto w-auto px-3 py-1 border-2 text-teal-300 text-sm font-medium border-transparent rounded-full bg-teal-400/10 leading-5 my-1 mr-1.5'>MongoDB</li>
+                                    <li className='h-auto w-auto px-3 py-1 border-2 text-teal-300 text-sm font-medium border-transparent rounded-full bg-teal-400/10 leading-5 my-1 mr-1.5'>Mongoose</li>
+                                    <li className='h-auto w-auto px-3 py-1 border-2 text-teal-300 text-sm font-medium border-transparent rounded-full bg-teal-400/10 leading-5 my-1 mr-1.5'>REST API</li>
                                 </ul>
                             </div>
                         </div>

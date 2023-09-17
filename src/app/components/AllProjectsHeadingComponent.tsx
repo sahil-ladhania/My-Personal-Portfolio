@@ -8,7 +8,7 @@ const AllProjectsHeadingComponent = () => {
             <>
                 {/* Main Component */}
                 <div className="h-40 flex flex-col justify-center">
-                    <Link href="/home" className='flex items-center h-auto mt-40 hover:underline hover:decoration-teal-400 mb-5'>
+                    <Link href="/" className='flex items-center h-auto mt-40 hover:underline hover:decoration-teal-400 mb-5'>
                         <span className="mr-3 text-lg text-teal-300 font-medium"><BiArrowBack/></span>
                         <span className="text-lg text-teal-300 font-medium">Sahil Ladhania</span>
                     </Link>
