@@ -18,7 +18,7 @@ const FormComponent = () => {
                         </div>
                         <div className='flex flex-col'>
                             <textarea className='h-40 p-3 mb-3 rounded-md outline-none bg-slate-200 text-slate-900 focus:outline-none focus:border-teal-600 focus:ring-2 focus:ring-teal-600' name="" id="" cols={30} rows={10} placeholder='Aditiya Kumar 6 class mai padhte hai...'/>
-                            <button className='border-2 h-10 rounded-md border-transparent bg-slate-200 text-slate-900 font-semibold hover:translate-x-1'>Send Message</button>
+                            <button className='border-2 h-10 rounded-md border-transparent bg-teal-300 text-slate-600 font-semibold hover:translate-x-1'>Send Message</button>
                         </div>
                     </form>
                 </div>
