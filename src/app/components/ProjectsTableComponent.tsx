@@ -10,7 +10,7 @@ const ProjectsTableComponent = () => {
                     <thead className='sticky top-0 z-10 border-b border-slate-300/10 px-6 backdrop-blur'>
                         <tr>
                             <th className='h-10 w-16 py-4 pr-8 font-md text-sm'>Year</th>
-                            <th className='h-10 w-72 font-md text-sm'>Project Intro</th>
+                            <th className='h-10 w-72 font-md text-sm'>Project Description</th>
                             <th className='h-10 w-40 font-md text-sm'>Project Name</th>
                             <th className='h-10 w-96 font-md text-sm'>Built With</th>
                             <th className='h-10 w-64 font-md text-sm'>Link</th>
